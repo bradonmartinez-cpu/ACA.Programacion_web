@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Agenda tu Cita en PetHealthy</title>
+    <meta name="description" content="Ponte en contacto con PetHealthy. Agenda citas médicas y ubicación aquí.">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <header class="menu-principal">
+        <h1>Contacto - PetHealthy</h1>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contenedor-pagina-contacto">
+
+        <!-- Sección de Ubicación y Mapa Interactivo -->
+        <section class="seccion-ubicacion">
+            <h2 class="titulo-seccion">¿Dónde encontrarnos?</h2>
+            <p class="subtitulo-ubicacion">Estamos ubicados en la zona central de la ciudad: <strong>Cra. 27A #78-28, Bogotá</strong></p>
+
+            <!-- Mapa embebido de Google Maps -->
+            <div class="contenedor-mapa">
+                <iframe 
+                    src="https://maps.google.com/maps?q=Cra.+27A+%2378-28,+Bogot%C3%A1&t=&z=16&ie=UTF8&iwloc=&output=embed" 
+                    width="100%" 
+                    height="380" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+
+            <!-- Botón animado de urgencias -->
+            <div class="contenedor-animacion">
+                <button id="boton-urgencias">🚨 ¡Llamar a Urgencias 24/7! Tel: 3197418761</button>
+            </div>
+        </section>
+
+        <!-- Sección en Paralelo (Lado a Lado): Clínica y Equipo -->
+        <section class="seccion-galeria">
+            <div class="contenedor-galeria">
+
+                <!-- Tarjeta 1: Conoce nuestra clínica -->
+                <div class="tarjeta-galeria">
+                    <div class="icono-galeria">🏥</div>
+                    <h3>Conoce nuestra clínica</h3>
+                    <div class="marco-imagen">
+                        <img src="imagenes/Veterinaria.centro.jpg" alt="Fachada e instalaciones de PetHealthy">
+                    </div>
+                </div>
+
+                <!-- Tarjeta 2: Nuestro Equipo -->
+                <div class="tarjeta-galeria">
+                    <div class="icono-galeria">👨‍⚕️👩‍⚕️</div>
+                    <h3>Nuestro Equipo</h3>
+                    <div class="marco-imagen">
+                        <img src="imagenes/Grupo.de.trabajo.jpg" alt="Equipo profesional veterinario de PetHealthy">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 PetHealthy Veterinaria. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
